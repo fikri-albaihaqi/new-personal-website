@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: roboto;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+header {
+  background: url('../img/20190903-lake_pier_boat_146830_3840x2160.jpg') no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-weight: lighter;
+  padding-top: 50px;
+}
+.logo {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+nav ul {
+  font-size: 30px;
+  display: flex;
+}
+nav ul a {
+  text-decoration: none;
+  color: white;
+  padding: 0px 30px 0px 30px;
+}
+nav ul li {
+  list-style: none;
+}
+.header-content p {
+  font-size: 70px;
+  color: white;
+  font-weight: lighter;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.about {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.left-side {
+  flex: 30%;
+}
+.right-side {
+  flex: 70%;
+}
+.title {
+  font-size: 70px;
+  font-weight: bold;
+}
+.paragraph {
+  font-size: 25px;
+}
+.work {
+  background-color: #1A1A1A;
+}
+.work-content {
+  padding-top: 100px;
+}
+.work .title {
+  color: white;
+  text-align: center;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.left-column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 150px;
+}
+.right-column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 150px;
+  margin-top: 150px;
+}
+.bottom-work {
+  margin-top: 200px;
+}
+footer {
+  text-align: center;
+  margin-top: 200px;
+}
+footer .title::before, footer .title::after{
+  display: inline-block;
+  content: "";
+  border-top: 1px solid black;
+  width: 20%;
+  margin: 0 4rem;
+  transform: translateY(-1rem);
+}
+footer img {
+  margin: 50px 70px;
+}
+footer .paragraph {
+  padding-top: 8rem;
+}
+footer .paragraph::before {
+  height: 70px;
+  transform: translateY(-120px);
+  position: absolute;
+  width: 1px;
+  left: 50%;
+  background: #000000;
+  content: "";
+}
+footer .copyright {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
